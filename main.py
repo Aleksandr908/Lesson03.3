@@ -20,7 +20,7 @@ target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
 color = (random.randint(0,255), random.randint(0,255), random.randint(0,255))
 
-
+# account = 0
 
 running = True
 while running:
@@ -33,10 +33,12 @@ while running:
       if target_x < mouse_x < target_x + target_width and target_y < mouse_y < target_y + target_height:
         target_x = random.randint(0, SCREEN_WIDTH - target_width)
         target_y = random.randint(0, SCREEN_HEIGHT - target_height)
+#        account += 1
   screen.blit(target_img, (target_x, target_y))
   pygame.display.update()
 
 
+# print (f"Вы набрали {account} очков")
 
 pygame.quit()
 

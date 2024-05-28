@@ -11,11 +11,9 @@ pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("img/1674667984.jpg")
 pygame.display.set_icon(icon)
 
-<<<<<<< Updated upstream
+
 target_img = pygame.image.load("img/target.png")
-=======
-target_image = pygame.image.load("img/target.png")
->>>>>>> Stashed changes
+
 target_width = 80
 target_height = 80
 

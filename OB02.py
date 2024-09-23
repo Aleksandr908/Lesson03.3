@@ -48,7 +48,7 @@ class Admin(User):
         return self.__access_level
 
 
-# Пример использования
+
 if __name__ == "__main__":
     admin = Admin(1, "Глафира")
     user1 = User(2, "Василий")
